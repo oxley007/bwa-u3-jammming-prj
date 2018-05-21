@@ -1,7 +1,7 @@
 
 const client_id = '0754c5a4428742edaac869ec67c7b8b1'; // Your client id
 const client_secret = '340e37eaa75641efb6b53aa527e07417'; // Your secret
-const redirect_uri = 'http://localhost:3001/'; // Your redirect uri
+const redirect_uri = 'http://localhost:3000/'; // Your redirect uri
 const apiKey = '29PyHhxOvoKaZmIRCBslGOs8kV2C-4Md7QO3HdpzFuvUPWwyYngcMGFwLl1xgRN1t_hTLZ02Vh18yauT9jBtN7xB7V5iguVfUNVxHyk0uQ0_g6sHnKWtsHteMWDcWnYx';
 
 let accessToken
