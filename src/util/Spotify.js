@@ -60,7 +60,6 @@ else {
 
 search(song) {
   console.log(accessToken + ' any access token?');
-  debugger;
     return fetch(`https://api.spotify.com/v1/search?q=${song}&type=track&limit=5`, {
       headers:
       {
@@ -101,7 +100,7 @@ savePlaylist(playlistName, trackURIs) {
   //else if (!playlistName && !trackURIs) {
     console.log('Playlist or track URIs have value');
     console.log(accessToken);
-    debugger;
+    
     accessToken = window.location.href.match(/access_token=([^&]*)/)[1];
     let headers = {Authorization: `Bearer ${accessToken}`}
     let user_id;
