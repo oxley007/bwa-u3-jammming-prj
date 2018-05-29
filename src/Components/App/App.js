@@ -91,7 +91,7 @@ search(search) {
   Spotify.search(search).then(searchResults => {
     this.setState({ searchResults: searchResults });
   });
-  debugger;
+
 }
 
   render() {
